@@ -77,7 +77,7 @@ const Register = ({ onNavigate }) => {
       // Update the backend API URL to point to your backend deployed on Render
       const response = await axios.post('https://todolistmanager.onrender.com/register', formData);
   
-      // Handle the response (you can add more logic here)
+      // Handle the response (you can add more logic here) 
       console.log('API Response:', response.data);
   
       if (response.status === 200) {
