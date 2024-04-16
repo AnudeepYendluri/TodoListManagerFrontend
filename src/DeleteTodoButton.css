@@ -42,3 +42,13 @@
 .delete-todo-item button:hover {
   background-color: #c82333;
 }
+
+/* Dark mode styles */
+.dark-mode .delete-todo-container {
+  background-color: #333; /* Dark mode background color */
+}
+
+/* Adjust text color in dark mode */
+.dark-mode .delete-todo-item {
+  color: #0c0b0b; /* White text color in dark mode */
+}
